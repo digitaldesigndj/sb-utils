@@ -2,8 +2,15 @@
 /commandstar
 /starbound
 /StarryPy3k
+
+bans.log
+clock.log
+forward.log
+kicks.log
+
 /tmp
 /trash
+
 .bash_history
 .bashrc
 .cache
@@ -17,6 +24,4 @@
 .nvm
 .profile
 .ssh
-tmp
-trash
 .viminfo
