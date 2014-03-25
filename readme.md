@@ -18,34 +18,34 @@ The easiest way to install these utils is to add a line like this to your bash_p
 
 ### clock.sh
 
-	clockin()
-	clockout()
+	clockin
+	clockout
 
 ### ip_manage.sh
 
-	iplist()
-	iprestore()
-	ipsave()
-	ipunban()
-	ipban()
-	ipforward()
-	ipkick()
-	ipkill()
-	hammer()
+	iplist
+	iprestore
+	ipsave
+	ipunban
+	ipban
+	ipforward
+	ipkick
+	ipkill
+	hammer
 
 ### starbound.sh
 
-	sbtail ()
-	sbvanilla ()
-	sbpy ()
-	sbrestart()
-	sbrestartpy()
-	savespawn()
-	restorespawn() 
+	sbtail
+	sbvanilla
+	sbpy
+	sbrestart
+	sbrestartpy
+	savespawn
+	restorespawn 
 
 ### webmanage.sh
 
-	start_cs()
-	start_bs()
-	startweb()
-	restartweb()
+	start_cs
+	start_bs
+	startweb
+	restartweb
