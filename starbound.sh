@@ -39,7 +39,7 @@ function sbrestartpy() {
 	pkill python;
 	service starbound stop;
 	cd /root/StarryPy3k;
-	nohup python3.4 server.py >/dev/null 2>&1&;
+	nohup python3.4 server.py >/dev/null 2>&1& ;
 	service starbound start;
 }
 
