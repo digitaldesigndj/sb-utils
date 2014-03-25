@@ -6,8 +6,13 @@
 
 The easiest way to install these utils is to add a line like this to your bash_profile.
 
+
 	# Source SB Utils
-	source /path/to/sb-utils/*
+	source /path/to/sb-utils/clock.sh
+	source /path/to/sb-utils/ip_manage.sh
+	source /path/to/sb-utils/starbound.sh
+	source /path/to/sb-utils/web_manage.sh
+
 
 ## Functions made available
 

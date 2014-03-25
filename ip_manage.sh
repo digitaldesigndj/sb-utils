@@ -104,8 +104,8 @@ function hammer() {
 	red='\e[0;31m';
 	endColor='\e[0m';
 
-	echo -e "${red}Welcome to bash Hammer! ${endColor}"
-	echo -e "${green}FIND YOUR TARGET:${endColor}"
+	echo -e "${red}Welcome to bash Hammer! ${endColor}";
+	echo -e "${green}FIND YOUR TARGET:${endColor}";
 	read PLAYER;
 	THISTHEM=$(grep "Client '" /root/starbound/starbound_server.log* | grep $PLAYER | tail -1 );
 	LINE=$(grep "Client '" /root/starbound/starbound_server.log* | grep $PLAYER | tail -1 | grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}');
