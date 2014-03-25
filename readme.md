@@ -30,7 +30,7 @@ The easiest way to install these utils is to add a line like this to your bash_p
 	ipban()
 	ipforward()
 	ipkick()
-	ipkill() *needs fixed
+	ipkill()
 	hammer()
 
 ### starbound.sh
