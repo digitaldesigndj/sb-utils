@@ -66,6 +66,9 @@ function restorespawn() {
 }
 
 function sbhelp() {
+	echo ' '
+	echo 'Starbound Server Help:'
+	echo ' '
 	echo 'restorespawn : Brings back spawn'
 	echo 'savespawn : Saves this image of spawn'
 	echo 'sbrestartpy : Restarts StarryPy3k'
@@ -74,4 +77,6 @@ function sbhelp() {
 	echo 'sbvanilla : Sets the config file for Vanilla Starbound'
 	echo 'sbtail : Follow the log file as it updates'
 	echo 'sbhelp : This junk again'
+	echo ' '
+}
 
