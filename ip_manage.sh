@@ -109,8 +109,8 @@ function hammer() {
 	echo -e "${red}Welcome to bash Hammer! ${endColor}"
 	echo -e "${green}FIND YOUR TARGET:${endColor}"
 	read PLAYER
-	THISTHEM=$(grep "Client '" /root/starbound/starbound_server.log* | grep $PLAYER | tail -1 )
-	LINE=$(grep "Client '" /root/starbound/starbound_server.log* | grep $PLAYER | tail -1 | grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}')
+	sudo THISTHEM=$(grep "Client '" /root/starbound/starbound_server.log* | grep $PLAYER | tail -1 )
+	sudo LINE=$(grep "Client '" /root/starbound/starbound_server.log* | grep $PLAYER | tail -1 | grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}')
 	echo $THISTHEM
 	echo $LINE
 	echo -e "Is this them? \n${red}If not press ctrl-c and bash iplist${endColor}"
