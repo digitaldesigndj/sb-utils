@@ -65,4 +65,13 @@ function restorespawn() {
 	start starbound
 }
 
+function sbhelp() {
+	echo 'restorespawn : Brings back spawn'
+	echo 'savespawn : Saves this image of spawn'
+	echo 'sbrestartpy : Restarts StarryPy3k'
+	echo 'sbrestart : Restarts Starbound'
+	echo 'sbpy : Sets the config file for py3k'
+	echo 'sbvanilla : Sets the config file for Vanilla Starbound'
+	echo 'sbtail : Follow the log file as it updates'
+	echo 'sbhelp : This junk again'
 
