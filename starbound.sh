@@ -77,13 +77,13 @@ function sbhelp() {
 |  The following commands are available
 |
 |  restorespawn : Brings back spawn
-|  savespawn : Saves this image of spawn
-|  sbrestartpy : Restarts StarryPy3k
-|  sbrestart : Restarts Starbound
-|  sbpy : Sets the config file for py3k
-|  sbvanilla : Sets the config file for Vanilla Starbound
-|  sbtail : Follow the log file as it updates
-|  sbhelp : This junk again
+|  savespawn :    Saves this image of spawn
+|  sbrestartpy :  Restarts StarryPy3k
+|  sbrestart :    Restarts Starbound
+|  sbpy :         Sets the config file for py3k
+|  sbvanilla :    Sets the config file for Vanilla Starbound
+|  sbtail :       Follow the log file as it updates
+|  sbhelp :       This junk again
 |"
 }
 
