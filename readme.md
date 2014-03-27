@@ -13,6 +13,7 @@ The easiest way to install these utils is to add a line like this to your bash_p
 	source /path/to/sb-utils/starbound.sh
 	source /path/to/sb-utils/web_manage.sh
 
+_This will need to be done for each user that wants to use the tools._
 
 ## Functions made available
 
