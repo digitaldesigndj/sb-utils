@@ -1,5 +1,25 @@
 # Starbound Server Utilities
 
+```
+|  Welcome to Munlock & Fanservice's
+| 
+|   __                                          
+|  (_ _|_ _  __|_  _    __  _|   | |_|_ o  | _ 
+|  __) |_(_| | |_)(_)|_|| |(_|   |_| |_ |  | _> 
+|
+|  
+|  The following commands are available
+|
+|  restorespawn : Brings back spawn
+|  savespawn :    Saves this image of spawn
+|  sbrestartpy :  Restarts StarryPy3k
+|  sbrestart :    Restarts Starbound
+|  sbpy :         Sets the config file for py3k
+|  sbvanilla :    Sets the config file for Vanilla Starbound
+|  sbtail :       Follow the log file as it updates
+|  sbhelp :       This junk again
+```
+
 ## Installation
 
 	git clone https://github.com/digitaldesigndj/sb-utils
