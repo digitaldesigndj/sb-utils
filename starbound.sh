@@ -7,25 +7,25 @@ function sbtail () {
 }
 
 function sbvanilla () {
-	echo 'Making sure that starbound and starry py are off'
+	echo '|  Making sure that starbound and starry py are off'
 	stop starbound
 	stop pystarbound
 	cd /root/starbound
 	rm starbound.config
 	cp starbound.configVanillaPort starbound.config
-	echo 'Configuring the game port in starbound.config to 25024'
+	echo '|  Configuring the game port in starbound.config to 25024'
 	start starbound
-	echo 'Starbound started in vanilla mode'
+	echo '|  Starbound started in vanilla mode'
 }
 
 function sbpy () {
-	echo 'Making sure that starbound and starry py are off'
+	echo '|  Making sure that starbound and starry py are off'
 	stop starbound
 	stop pystarbound
 	cd /root/starbound
 	rm starbound.config
 	cp starbound.configPyPort starbound.config
-	echo 'Configuring the game port in starbound.config to 25024'
+	echo '|  Configuring the game port in starbound.config to 25024'
 	start starbound
 	start pystarbound
 }
@@ -66,17 +66,24 @@ function restorespawn() {
 }
 
 function sbhelp() {
-	echo ' '
-	echo 'Starbound Server Help:'
-	echo ' '
-	echo 'restorespawn : Brings back spawn'
-	echo 'savespawn : Saves this image of spawn'
-	echo 'sbrestartpy : Restarts StarryPy3k'
-	echo 'sbrestart : Restarts Starbound'
-	echo 'sbpy : Sets the config file for py3k'
-	echo 'sbvanilla : Sets the config file for Vanilla Starbound'
-	echo 'sbtail : Follow the log file as it updates'
-	echo 'sbhelp : This junk again'
-	echo ' '
+	echo "| 
+|  Welcome to Munlock & Fanservice's
+| 
+|   __                                          
+|  (_ _|_ _  __|_  _    __  _|   | |_|_ o  | _ 
+|  __) |_(_| | |_)(_)|_|| |(_|   |_| |_ |  | _> 
+|
+|  
+|  The following commands are available
+|
+|  restorespawn : Brings back spawn
+|  savespawn : Saves this image of spawn
+|  sbrestartpy : Restarts StarryPy3k
+|  sbrestart : Restarts Starbound
+|  sbpy : Sets the config file for py3k
+|  sbvanilla : Sets the config file for Vanilla Starbound
+|  sbtail : Follow the log file as it updates
+|  sbhelp : This junk again
+|"
 }
 
