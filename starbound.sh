@@ -43,6 +43,15 @@ function sbrestartpy() {
 	service starbound start
 }
 
+function sendtodex() {
+	# needs timestamp
+	stop starbound
+	sleep 2
+	scp $1 root@my.boundstar.com:/root/universe/$2
+	sleep 2
+	start starbound
+}
+
 function savespawn() {
 	#AS long as the spawn planet is still:
 	#alpha_59_61_-6139775_2_11.world

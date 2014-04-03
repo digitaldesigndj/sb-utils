@@ -1,8 +1,8 @@
 #!/bin/bash
 
 function start_cs() {
-	cd ~/commandstar/
-	bash forever.sh
+	forever stopall
+	forever start ./node_modules/coffee-script/bin/coffee lib/commandstar.coffee
 	echo 'started commandstar'
 }
 
